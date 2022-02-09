@@ -1,0 +1,26 @@
+Extensions installed on Dev Container: Existing Docker Compose (Extend):
+adrianwilczynski.alpine-js-intellisense
+alefragnani.project-manager
+amirmarmul.laravel-blade-vscode
+apility.beautify-blade
+aslamanver.vsc-export
+bmewburn.vscode-intelephense-client
+calebporzio.better-phpunit
+codezombiech.gitignore
+dbaeumer.vscode-eslint
+donjayamanne.git-extension-pack
+donjayamanne.githistory
+eamodio.gitlens
+EditorConfig.EditorConfig
+esbenp.prettier-vscode
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+junstyle.php-cs-fixer
+MehediDracula.php-namespace-resolver
+mikestead.dotenv
+namesmt.blade-color
+onecentlin.laravel-blade
+phiter.phpstorm-snippets
+vincaslt.highlight-matching-tag
+xdebug.php-debug
+ziyasal.vscode-open-in-github
