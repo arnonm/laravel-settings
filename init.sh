@@ -7,3 +7,10 @@ echo	-post-update-cmd
 echo		"@php artisan ide-helper:generate",
 echo    "@php artisan ide-helper:meta"
 
+# composer require --dev spatie/laravel-artisan-dd
+# // app/Console/Kernel.php
+#
+#protected $commands = [
+#    ...
+#    \Spatie\ArtisanDd\DdCommand::class,
+#];
