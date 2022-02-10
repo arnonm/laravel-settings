@@ -1,6 +1,5 @@
 Extensions installed on Dev Container: Existing Docker Compose (Extend):
 adrianwilczynski.alpine-js-intellisense
-alefragnani.project-manager
 amirmarmul.laravel-blade-vscode
 apility.beautify-blade
 aslamanver.vsc-export
