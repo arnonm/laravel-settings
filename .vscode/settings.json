@@ -1,0 +1,26 @@
+{
+   
+
+    "phpunit.phpunit": "vendor/phpunit/phpunit/phpunit",
+
+    "sync.gist": "c30c09466b2d97d68de360230f57a4bc",
+
+
+    "todo-tree.tree.showScanModeButton": false,
+    "todo-tree.highlights.enabled": true,
+
+    "vetur.format.defaultFormatterOptions": {
+        "prettier": {
+            // Prettier option here
+            "semi": false
+        }
+    },
+
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": 0.2,
+    "workbench.colorTheme": "Default Light+",
+    "workbench.iconTheme": "vscode-icons",
+    
+
+}
