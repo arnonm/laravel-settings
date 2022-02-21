@@ -11,6 +11,12 @@ echo Add the following to scripts:
 echo	-post-update-cmd
 echo		"@php artisan ide-helper:generate",
 echo    "@php artisan ide-helper:meta"
+echo    "@php artisan ide-helper:models --nowrite"
+echo "post-install-cmd": [
+echo            "@php artisan ide-helper:generate",
+echo            "@php artisan ide-helper:meta",
+echo            "@php artisan ide-helper:models --nowrite"
+echo        ]
 
 # composer require --dev spatie/laravel-artisan-dd
 # // app/Console/Kernel.php
