@@ -1,4 +1,4 @@
-{
+
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "files.exclude": {
@@ -14,9 +14,6 @@
         "artisan": true,
         ".idea": true,
         "server.php": true,
-        "tests": true,
-        "**/storage": true,
-        "**/tests": true,
         "package-lock.json": true,
         "_ide_helper.php": true,
         "_ide_helper_models.php": true,
@@ -42,42 +39,42 @@
         "*.vue": "vue",
         "*.php-cs": "php",
     },
-
     "php.validate.enable": false,
     "php.suggest.basic": false,
     "php.executablePath": "/usr/bin/php",
-
+    "php.validate.executablePath": "/usr/bin/php",
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
     "editor.minimap.enabled": false,
     "editor.suggestSelection": "first",
-    "editor.fontSize":14,
+    "editor.fontSize": 14,
     "editor.lineHeight": 26,
-    "editor.fontFamily":"Menlo, Monaco, 'Courier New', monospace",
+     "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.cursorStyle": "line",
     "editor.cursorWidth": 3,
     "editor.tabSize": 2,
-    "editor.formatOnPaste":true,
+    "editor.formatOnPaste": true,
     "editor.wordWrap": "on",
-    "editor.rulers": [120],
+    "editor.rulers": [
+        120
+    ],
     "editor.codeLens": true,
     "editor.gotoLocation.multipleDefinitions": "goto",
-
     "explorer.openEditors.visible": 0,
     "explorer.autoReveal": true,
     "explorer.confirmDragAndDrop": true,
     "editor.snippetSuggestions": "bottom",
     "editor.emptySelectionClipboard": true,
-
-    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.editor.decorations.colors": false,
     "workbench.settings.openDefaultKeybindings": true,
     "workbench.activityBar.visible": true,
-    "workbench.sideBar.location": "right",
+    "workbench.sideBar.location": "left",
     "workbench.statusBar.visible": true,
 
-    "intelephense.stubs": [
+     "intelephense.stubs": [
         "apache",
         "bcmath",
         "bz2",
@@ -151,6 +148,8 @@
         "zlib"
     ],
     "intelephense.telemetry.enabled": false,
+
+
     "intelephense.format.enable": true,
     "intelephense.completion.triggerParameterHints": true,
     "intelephense.completion.insertUseDeclaration": true,
@@ -168,61 +167,52 @@
         "**/vendor/**/vendor/**",
         "**/storage",
         "**/storage/**",
-        "**/tests/**",
         "**/resources/views/**",
         "**/database/migrations/**",
         "**/storage/framework/views/**",
         "_ide_helper.php",
         "_ide_helper_models"
     ],
-
     "git.showPushSuccessNotification": true,
     "git.ignoreMissingGitWarning": true,
     "git.autofetch": true,
-    "git.enabled":true,
-
+    "git.enabled": true,
     "php-cs-fixer.onsave": true,
+    "php-cs-fixer.autoFixByBracket": false,
     "php-cs-fixer.rules": "@PSR2",
     "php-cs-fixer.executablePath": "${workspaceFolder}/vendor/bin/php-cs-fixer",
     "php-cs-fixer.config": ".php-cs-fixer.php;.php-cs-fixer.dist.php;.php_cs;.php_cs.dist",
     "php-cs-fixer.allowRisky": false,
-    "php-cs-fixer.autoFixByBracket": true,
     "php-cs-fixer.autoFixBySemicolon": false,
     "php-cs-fixer.formatHtml": false,
     "php-cs-fixer.documentFormattingProvider": true,
-
     "php-docblocker.gap": true,
     "php-docblocker.returnGap": true,
-    "php-docblocker.qualifyClassNames":true,
-    "php-docblocker.varDescription":true,
-    "php-docblocker.returnDescription":true,
-    "php-docblocker.author": { "name": "Arnon Meshoulam", "email": "arnon.meshoulam@gmail.com"},
-
-    "namespaceResolver.sortAlphabetically": true,
-
-
+    "php-docblocker.qualifyClassNames": true,
+    "php-docblocker.varDescription": true,
+    "php-docblocker.returnDescription": true,
+    "php-docblocker.author": {
+        "name": "Arnon Meshoulam",
+        "email": "arnon.meshoulam@gmail.com"
+    },
+ "namespaceResolver.sortAlphabetically": true,
     "prettier.requireConfig": true,
     "prettier.useEditorConfig": true,
-
     "tailwindCSS.emmetCompletions": true,
-
-
     "[blade]": {
         "editor.autoClosingBrackets": "always"
     },
-
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features",
         "editor.formatOnSave": true
     },
-
     "[vue]": {
         "editor.defaultFormatter": "octref.vetur",
         "editor.formatOnSave": true
     },
-
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer",
+        "editor.formatOnSave": true
     },
     "emmet.excludeLanguages": [
         "markdown",
@@ -234,11 +224,8 @@
         "vue-html": "html",
         "vue": "html"
     },
-
-
     "blade.format.enable": true, // if you would like to enable blade format
-
-    "better-phpunit.docker.enable": true,
+    "better-phpunit.docker.enable": false,
     "better-phpunit.docker.command": "./vendor/bin/sail php ",
     "better-phpunit.commandSuffix": null,
     "better-phpunit.phpunitBinary": "./vendor/bin/phpunit",
@@ -247,11 +234,7 @@
         "/Users/meshulam/PhpstormProjects/hr_ms_laravel8": "/var/www/html",
         // "${workspaceFolder}": "/var/www/html"
     },
-
-     "artisan.docker.enabled": true,
+    "artisan.docker.enabled": true,
     "artisan.docker.command": "./vendor/bin/sail",
-
-
-
-
+    "editor.formatOnSave": true,
 }
