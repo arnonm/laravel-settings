@@ -1,4 +1,9 @@
-composer require --dev barryvdh/laravel-ide-helper:* friendsofphp/php-cs-fixer:* nunomaduro/larastan:* beyondcode/laravel-query-detector:* beyondcode/laravel-self-diagnosis:* glhd/laravel-dumper:*
+composer require --dev barryvdh/laravel-ide-helper:* 
+composer require --dev friendsofphp/php-cs-fixer:*
+composer require --dev nunomaduro/larastan:* 
+composer require --dev beyondcode/laravel-query-detector:* 
+composer require --dev beyondcode/laravel-self-diagnosis:* 
+composer require --dev glhd/laravel-dumper:*
 
 composer require bensampo/laravel-enum:*
 
