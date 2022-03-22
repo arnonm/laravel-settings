@@ -1,0 +1,31 @@
+<?php
+declare(strict_types=1);
+
+namespace {{ namespace }};
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class {{ class }} extends Model
+{
+    use HasFactory;
+    //use SoftDeletes;
+
+    protected $fillable=[];
+
+    protected $casts = [];
+
+    protected $hidden = [];
+
+    /*
+     * Relationships
+     */
+
+
+
+    protected static function newFactory(): Factory
+    {
+        return {{ class }}Factory::new();
+    }
+}
