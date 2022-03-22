@@ -4,6 +4,12 @@ composer require --dev nunomaduro/larastan:*
 composer require --dev beyondcode/laravel-query-detector:* 
 composer require --dev beyondcode/laravel-self-diagnosis:* 
 composer require --dev glhd/laravel-dumper:*
+composer require --dev nunomaduro/collision:*
+composer require --dev nunomaduro/larastan:*
+composer require --dev pestphp/pest:*
+composer require --dev pestphp/pest-plugin-faker:*
+composer require --dev pestphp/pest-plugin-laravel:*
+composer require --dev pestphp/pest-plugin-parallel:*
 
 composer require bensampo/laravel-enum:*
 
