@@ -24,6 +24,19 @@
         "amirmarmul.laravel-blade-vscode",
         "MehediDracula.php-namespace-resolver",
         "esbenp.prettier-vscode",
+        "bmewburn.vscode-intelephense-client",
+        "breezelin.phpstan",
+        "codingyu.laravel-goto-view",
+        "HookyQR.beautify",
+        "IronGeek.vscode-env",
+        "m1guelpf.better-pest",=
+        "MehediDracula.php-namespace-resolver",
+        "naumovs.color-highlight",
+        "onecentlin.laravel-blade",
+        "ronvanderheijden.phpdoc-generator",
+        "shufo.vscode-blade-formatter",
+        "stef-k.laravel-goto-controller",
+        "tintrinh.php-refactor"
     ]
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
